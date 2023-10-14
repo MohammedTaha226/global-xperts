@@ -1,0 +1,194 @@
+/* Small Screens */
+@media (min-width: 991px) and (max-width: 1100px) 
+{
+	
+	.header .navBar .logo
+	{
+		margin-right:30px
+	}
+}
+
+/* small Screens & tablets & Smart phone */
+@media (max-width: 991px) 
+{	
+	
+	.header .navBar .logo
+	{
+		margin-left:15px;
+		margin-right:15px;
+	    margin-top: 25px;
+	    max-width:150px
+	}
+	
+	.header .navBar .logo img
+	{
+		max-width:100%
+	}
+	
+	
+	
+	.slider img
+	{
+		height:400px
+	}
+	
+	
+	.slider .slider-details
+	{
+		max-width:100%;
+		padding-top:60px
+	}
+	
+	.slider .slider-details h2
+	{
+		font-size:22px;
+		margin-bottom:25px
+	}
+	
+	.slider .slider-details p
+	{
+		font-size:13px
+	}
+	
+	.bx-wrapper .bx-pager.bx-default-pager
+	{
+		display:none
+	}
+	
+	.the-slider-control li	span i
+	{
+	    top: calc(50% - 29px);;
+	    opacity: 0.5
+	}
+	
+	.styleTitle
+	{
+		margin-bottom:60px
+	}
+	
+	.services .service .mask h2
+	{
+		font-size:15px
+	}
+	
+	.services .service p
+	{
+		padding:20px;
+		font-size:13px
+	}
+	
+	.sectors .tabs-sectors
+	{
+		margin-bottom:30px
+	}
+	
+	.styleTitle
+	{
+	    font-size: 22px;
+	}
+	
+	footer .logoTaha
+	{
+		margin-top:25px;
+		display:block
+	}
+	
+	footer .contactDetails .contactInfo
+	{
+		text-align:center
+	}
+	
+	footer .contactDetails .contactInfo i
+	{
+		float:none;
+		display:block;
+		margin:auto;
+		margin-bottom:15px
+	}
+
+}
+
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	
+	.header .navBar ul li a
+	{
+		font-size:12px
+	}
+	
+	.header .navBar .contact
+	{
+		font-size:13px;
+	    padding: 0 14px;
+	}
+	.header .navBar ul
+	{
+	    margin-top: 39px;
+	}
+	
+}
+
+/* Mobile & Tablets */
+@media (max-width: 767px) 
+{
+	
+
+
+	.header .navBar .contact
+	{
+		float:none;
+		width:100%;
+		display:block;
+		margin-top:25px;
+		height:65px;
+		line-height:65px;
+		text-align:center
+	}
+	
+	.header .clearClass
+	{
+		display:block
+	}
+
+	.header .open-menu
+	{
+		display:block
+	}
+	
+	.header .navBar ul
+	{
+		position: absolute;
+		top:100%;
+		background-color:#fff;
+		width:100%;
+		margin-top:0;
+		display:none;
+		z-index:99
+		
+	}
+	.header .navBar ul li
+	{
+		float:none;
+		display:block;
+		width:100%
+	}
+	.header .navBar ul li a
+	{
+		padding:15px 15px;
+		border-bottom:1px solid #eee
+	}
+	
+}
+
+/* Tablets */
+@media (min-width:480px) and (max-width: 767px)
+{
+
+}
+
+/* Mobile */
+@media (max-width: 479px) 
+{
+	
+}
